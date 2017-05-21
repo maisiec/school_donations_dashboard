@@ -51,3 +51,37 @@
     padding-top: 4px;
     padding-bottom: 0;
 }
+
+/* ------- BUTTON STYLING ---------*/
+
+.intro_button {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: hidden;
+    margin-top:10px;
+}
+
+.intro_button:active {
+	border-color: #33CC99;
+	color: #00bcd4;
+}
+
+.intro_button:hover {
+	background: #33CC99;
+}
+
+.intro_button:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.intro_button:active:before {
+	color: #33CC99;
+}
